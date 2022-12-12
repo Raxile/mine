@@ -4,10 +4,13 @@ import SimpleSlider from './ui/components/Slick';
 
 
 const App = () => {
+
   return (
     <div>
        <MainNavigation />
        <SimpleSlider />
+       
+      
     </div>
   )
 }
