@@ -4,7 +4,7 @@ import './NavLinks.css'
 
 const NavLinks = () => {
   return (
-     <ul className='nav-links list-none mt-12 p-0 h-full w-full flex flex-col justify-center items-center ' >
+     <ul className='nav-links list-none  p-0 h-full w-full flex flex-col justify-center items-center ' >
          <div className='border-b-2 border-white hover:border-cyan-700  mx-4'>
          <li className='mb-1 mt-8 font-semibold font-serif ' >Home</li>
          </div>

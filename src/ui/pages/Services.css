@@ -1,0 +1,11 @@
+@media(min-width:768px){
+   .media__px64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
+   }
+   .media__grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+   }
+}

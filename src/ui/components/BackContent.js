@@ -1,16 +1,16 @@
 import React from 'react'
-
+import './BackContent.css'
 
 const BackContent = (props) => {
   return (
-    <div className={` h-[30rem] w-[84rem] px-8  bg-gradient-to-r from-cyan-400 via-sky-400 to-cyan-400 z-10 fixed`}>
-      <div className='h-60 w-[59rem] flex space-x-4'>
+    <div className={` banner__strip h-[90vh] w-[95vw]  bg-gradient-to-r from-cyan-400 via-sky-400 to-cyan-400 z-10 fixed`}>
+      <div className='banner__content h-[90vh] w-[95vw] flex flex-col '>
         <div className='left'>
-        <img className='h-[20rem] w-fit' src={props.imgUrl} alt='' />
+        <img className='banner__img h-[35vh] px-2' src={props.imgUrl} alt={props.name} />
         </div>
-        <div className='Right w-[30rem]  mt-4 text-white text font-serif'>
-        <h1 className='font-bold text-3xl ml-4 text-center'>{props.name}</h1>
-         <p className='font-semibold ml-4 mt-4 text-justify'>{props.description}</p>
+        <div className='banner__text Right  mt-4 text-white text font-serif'>
+        <h1 className='font-bold text-2xl w-[73vw]  text-center'>{props.name}</h1>
+         <p className='  mt-4 w-[73vw] text-center '>{props.description}</p>
        
         </div>
       </div>

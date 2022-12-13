@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import BackContent from "./BackContent";
 
+import './Slick.css'
+
 
 import img1 from '../../images/CloudComp.png';
 import img2 from '../../images/AppDevlop.png';
@@ -56,12 +58,12 @@ export default class SimpleSlider extends Component {
     ];
 
     return (
-      <div className="mt-[4.2rem] w-[81rem] px-8 bg-cyan-400 ml-[0.6rem]" >
+      <div className="slick__background mt-[4.2rem] h-[90vh] w-[95vw] px-8 bg-gradient-to-r from-cyan-400 via-sky-400 to-cyan-400 ml-[0.6rem]" >
 
         <Slider {...settings}>
 
           {tech.map((t) => (
-            <div className="h-[23rem] w-[10rem] " key={t.id}>
+            <div className="slick__map h-[90vh] w-[95vw] " key={t.id}>
               <BackContent name={t.name} imgUrl={t.imgUrl} description={t.description} firstColor={t.firstColor} secandColor={t.secandColor} />
             </div>
           ))}

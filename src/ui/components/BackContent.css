@@ -1,0 +1,48 @@
+@media(min-width:500px){
+    .banner__img{
+        height: 65vh;
+    }
+}
+@media (min-width: 768px) {
+    
+    .banner__strip {
+        width: 84rem;
+        height: 30rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .banner__content {
+       display: flex;
+       flex-direction: row;  
+       width: 59rem;
+       height: 15rem;
+    }
+    .banner__img {
+        height: 20rem;
+        margin: 0;
+        padding-left:2rem ;
+    }
+    .banner__text {
+        width: 30rem;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        padding-left: 1rem;
+    }
+    .banner__text h1 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin-left: 1rem;
+        font-weight: 700;
+        text-align: center;
+        width: fit-content;
+    }
+    .banner__text p {
+    
+        width: fit-content;
+        margin-top: 1rem;
+       font-weight: 600;
+       margin-left: 1rem;
+       margin-top: 1rem;
+       text-align: justify;
+    }
+  }

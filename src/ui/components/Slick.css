@@ -1,0 +1,11 @@
+@media (min-width: 768px) {
+    
+    .slick__background {
+        width: 81rem;
+        height: fit-content;
+    }
+    .slick__map {
+        height: 23rem;
+        width: 10rem;
+    }
+  }
