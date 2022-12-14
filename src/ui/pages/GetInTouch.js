@@ -8,10 +8,10 @@ const GetInTouch = () => {
       <h1 className='text-center text-xl font-serif mt-4'>CONSULT OUR EXPERTS ABOUT YOUR PROJECT FOR FREE.</h1>
       <p className='text-center px-5 mt-4'>We help your company to refect its true self through tone of voice copywriting and storytelling.</p>
       <div className='media__form px-12 py-6'>
-      <div class="block p-6 rounded-lg shadow-lg bg-white max-w-md ">
+      <div className="block p-6 rounded-lg shadow-lg bg-white max-w-md ">
   <form>
-    <div class="form-group mb-6">
-      <input type="text" class="form-control block
+    <div className="form-group mb-6">
+      <input type="text" className="form-control block
         w-full
         px-3
         py-1.5
@@ -27,8 +27,8 @@ const GetInTouch = () => {
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput7"
         placeholder="Name"/>
     </div>
-    <div class="form-group mb-6">
-      <input type="email" class="form-control block
+    <div className="form-group mb-6">
+      <input type="email" className="form-control block
         w-full
         px-3
         py-1.5
@@ -44,9 +44,9 @@ const GetInTouch = () => {
         focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none" id="exampleInput8"
         placeholder="Email address"/>
     </div>
-    <div class="form-group mb-6">
+    <div className="form-group mb-6">
       <textarea
-      class="
+      className="
         form-control
         block
         w-full
@@ -68,13 +68,8 @@ const GetInTouch = () => {
       placeholder="Message"
     ></textarea>
     </div>
-    <div class="form-group form-check text-center mb-6">
-      <input type="checkbox"
-        class="form-check-input appearance-none h-4 w-4 border border-gray-300 rounded-sm bg-white checked:bg-blue-600 checked:border-blue-600 focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain mr-2 cursor-pointer"
-        id="exampleCheck87" checked/>
-      <label class="form-check-label inline-block text-gray-800" for="exampleCheck87">Send me a copy of this message</label>
-    </div>
-    <button type="submit" class="
+   
+    <button type="submit" className="
       w-full
       px-6
       py-2.5
