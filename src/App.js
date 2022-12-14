@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './shared/Navigation/Footer';
 import MainNavigation from './shared/Navigation/MainNavigation' 
 import SimpleSlider from './ui/components/Slick';
 import GetInTouch from './ui/pages/GetInTouch';
@@ -16,7 +17,7 @@ const App = () => {
        <WorkProg />
         <TechUsed />    
         <GetInTouch /> 
-       
+       <Footer/>
       
     </div>
   )
